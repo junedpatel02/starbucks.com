@@ -1,0 +1,280 @@
+@media (max-width: 480px) {
+  
+
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 1px solid purple;
+}
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+  
+}
+
+.container{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.logo{
+
+  width: 50%;
+  height: auto;
+ 
+}
+
+.logo img{
+  width: 70%;
+}
+.icon-section{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: end;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+
+.container ul {
+    width: 30%;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+ 
+
+ 
+
+
+ .hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .left-part{
+    width: 100%;
+    height: 450px;
+    background-color: aqua;
+    background-image: url('https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94521.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
+ .right-part{
+    width: 100%;
+    height: 450px;
+    background-color: #9E2240;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: antiquewhite;
+    gap: 20px;
+    text-align: center;
+ }
+  .btn2{
+    width: 100px;
+    color: white;
+    border:1px solid white;
+    background-color: transparent;
+    
+  }
+
+  .second{
+    flex-direction: row-reverse;
+    flex-direction: column;
+    display: flex;
+    
+  }
+
+
+  .one{
+    background-image: url('https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94169.jpg');
+    flex-direction: column;
+    display: flex;
+  }
+
+
+  .three{
+    background-image:url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94300.jpg) ;
+  }
+
+
+  .pt{
+    background-color:#006241;
+  }
+
+
+  .er{
+    background-color: #006241;
+  }
+
+
+  .four{
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94229.jpg);
+  }
+
+.five{
+  background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94506.jpg);
+}
+
+.six{
+  background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94371.jpg);
+}
+
+  .bag{
+    background-color: #F2F0EB;
+    color: black;
+    font-size: 20px;
+  }
+
+  .btn5{
+    width: 100px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+  }
+
+
+
+
+  .bg{
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94177.jpg);
+  }
+
+.jk{
+  background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-94371.jpg);
+}
+
+
+  .btn3{
+    width: 150px;
+    background-color: transparent;
+    color: aliceblue;
+    border:1px solid white;
+    
+    
+  }
+  .aa{
+    background-color: #FFBE9E;
+    color: black;
+  }
+  .bt{
+    color: black;
+    width: 150px;
+    border: 1px solid;
+    
+    background: transparent;
+  }
+  .jp{
+    background-color: #007179;
+
+  }
+
+  .feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    
+    
+  }
+
+
+  .feedback p:nth-child(3){
+    margin-top: 70px;
+  }
+
+  .footer{
+    width: 100%;
+    justify-content: center;
+
+    /* background-color: aqua; */
+  }
+
+  .footer-upper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px ;
+    justify-content: flex-start;
+    padding-inline: 30px;
+  }
+
+  .footer-upper ul{
+    list-style: none;
+  
+  }
+
+  .footer-upper ul li h2{
+    font-weight: 600;
+    color: rgb(29, 27, 27);
+    margin-bottom: 20px;
+  }
+  ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-wrap: nowrap;
+  }
+   .icone{
+    display: flex;
+    gap: 10px;
+    margin: 20px; 
+    
+   }
+.gap li{
+  margin:20px;
+  padding-left: 25px;
+  
+}
+.preghraph{
+  padding-left: 50px;
+}
+.hr2 {
+  color: grey;
+}
+
+
+.icone li{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.icone li i{
+  font-size: 20px;
+}
+
+
+
+
+}
